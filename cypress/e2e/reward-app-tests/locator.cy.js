@@ -53,4 +53,13 @@ describe('Locators', () => {
     cy.contains('form', 'Not Unique Text');
     cy.get('form').contains('Not Unique Text');
   });
+
+  it('locating elements with find', () => {
+    cy.get('#form-1').find('.btn-1');
+  });
+
+  // it('locating elements with custom commands', () => {
+  //   // Get all elements by tag
+  //   cy.getByTag('button');
+  // });
 });
