@@ -2,11 +2,12 @@
 
 ## Cypress on chrome and electron
 
+https://rewards-app-testing.vercel.app/habits
 ![](rewards-cypress-outcome.png)
 
 ## Deploy your own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://github.com/anjola-adeuyi/photoshop-react-typescript)
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/anjola-adeuyi/rewards-app-testing)
 
 ## How to use
 
