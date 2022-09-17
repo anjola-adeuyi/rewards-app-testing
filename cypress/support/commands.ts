@@ -35,3 +35,7 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('getByTag', (tag: string) => {
+  return cy.get(`${tag}`);
+});

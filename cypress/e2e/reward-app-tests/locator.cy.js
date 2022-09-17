@@ -58,8 +58,8 @@ describe('Locators', () => {
     cy.get('#form-1').find('.btn-1');
   });
 
-  // it('locating elements with custom commands', () => {
-  //   // Get all elements by tag
-  //   cy.getByTag('button');
-  // });
+  it('locating elements with custom commands', () => {
+    // Get all elements by tag
+    cy.getByTag('button');
+  });
 });
